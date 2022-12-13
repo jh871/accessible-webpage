@@ -1,13 +1,22 @@
+/*  
+CSS stylesheet for "Horiseon Marketing" webpage.
+For UK edX Front End Web Dev week 1 Challenge
+*/
+
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* The background colour for the whole page is a shade of white. */
 body {
     background-color: #d9dcd6;
 }
 
+/* The background colour for the header is a shade of turquoise.
+The font colour for the main logo and navigation links is white.*/
 header {
     background-color: #2a607c;
     padding: 20px;
@@ -15,15 +24,19 @@ header {
     color: #ffffff;
 }
 
+/* styling for brand logo to put it inline with navigation menu. */ 
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* differentiated colour styling for letters "seo" within the brand logo, a shade of grey. */ 
 .seo {
     color: #d9dcd6;
 }
 
+
+/* Navigation menu including links, which are in line along the top of the page. */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,7 +44,6 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 
 ul {
     list-style-type: none;
@@ -47,6 +59,7 @@ a {
     text-decoration: none;
 }
 
+/* hero image on landing page, below header bar and above main page content. */ 
 .hero {
     height: 800px;
     width: 100%;
@@ -56,17 +69,19 @@ a {
     background-position: center;
 }
 
+/* content section includes 3 sections to the left of the landing page, featuring the majority of text plus a corresponding image for each paragraph. 
+The sections are displayed in a column one above the other, with each section taking up 75% page width. */ 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-
 p {
     font-size: 16px;
 }
 
+/* alignment for content images to alternate float L-R-L. */ 
 .float-left {
     float: left;
     margin-right: 25px;
@@ -77,6 +92,7 @@ p {
     margin-left: 25px;
 }
 
+/* Further styling for content. Each section features white text on a blue background. */ 
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -88,18 +104,18 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+/* The 3 images in main content section have same height. */
+.content img {
     max-height: 200px;
 }
 
-
+/* h2 headings are used for each of the 3 content sections. */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* benefits section is a sidebar featuring 3 sections in a column, positioned to the right of the main content. The sidebar background is a shade of blue. */ 
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -111,7 +127,7 @@ h2 {
     background-color: #2589bd;
 }
 
-
+/* The benefits sidebar text for all 3 sections is white. */ 
 .benefit-cost,
 .benefit-brand,
 .benefit-lead {
@@ -119,18 +135,20 @@ h2 {
     color: #ffffff;
 }
 
+/* h3 headers are only used in benefits sidebar */ 
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* All images in benefits sidebar have matching properties. All images are black icons over the blue sidebar background. */ 
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Footer section black text on the white background set in the body tag.  */ 
 footer {
     padding: 30px;
     clear: both;
@@ -138,6 +156,7 @@ footer {
     text-align: center;
 }
 
+/*#footer-text is a h2 header within the footer. */ 
 #footer-text {
     font-size: 20px;
 }
