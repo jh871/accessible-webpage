@@ -16,6 +16,9 @@ Comments have also been added to the CSS file that aim to support readability of
 
 This not only makes the CSS more readable but also means in future, if edits were made to the CSS file that caused elements to move around or change erronously, the developer can refer to the comments for an idea of how each section should work.
 
+## Usage
+The webpage can be accessed by clicking the link to the deployed webpage, and is expected to work on any browser.
+
 ## Issues I had with this challenge
 In the CSS file, some of the styling for different elements is the same, but the elements each have individual class names. I tried to change this so that elements that shared properties shared a class name but CSS failed, so I reverted to the original class names and consolidated them around their shared properties.
 
