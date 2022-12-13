@@ -26,6 +26,7 @@ Another issue is the page is not very responsive to the browser window being dra
 
 ## Screenshot of Horiseon Marketing webpage
 
+![](screenshotHoriseonWebpage.png)
 
 
 ## Link to deployed application
