@@ -1,12 +1,13 @@
-# Accessible website
+# Accessible webpage
 
 ## EdX Bootcamp: Module 1 Challenge  
 Original source code for task found at https://github.com/skills-bootcamp/frontend-dev (private repo)
 
+----
 ## Description
 This repository contains the materials for a webpage for a marketing company. The goal of the challenge set for the module was to adapt the preexisting HTML and CSS files to make them more accessible.
 
-
+----
 ## Accessiblity
 For the HTML file accessibility was improved through adding alt text to pictures and replacing non-semantic HTML tags with semantic tags. 
 
@@ -16,6 +17,7 @@ Comments have also been added to the CSS file that aim to support readability of
 
 This not only makes the CSS more readable but also means in future, if edits were made to the CSS file that caused elements to move around or change erronously, the developer can refer to the comments for an idea of how each section should work.
 
+-----
 ## Usage
 The webpage can be accessed by clicking the link to the deployed webpage, and is expected to work on any browser.
 
@@ -24,14 +26,23 @@ In the CSS file, some of the styling for different elements is the same, but the
 
 Another issue is the page is not very responsive to the browser window being dragged out of shape, for example the text will spill over other sections of background.
 
-## Screenshot of Horiseon Marketing webpage
+-----
+## License 
+None selected for this project.
 
-![](screenshotHoriseonWebpage.png)
+-----
+## Links
 
-
-## Link to deployed application
+### Link to deployed application
 
 https://jh871.github.io/accessible-webpage/
 
-## License 
-None selected for this project.
+
+### Link to GitHub repo
+
+https://github.com/jh871/accessible-webpage
+
+
+## Screenshot of Horiseon Marketing webpage
+
+![Screenshot of Horiseon Marketing homepage](assets/images/Screenshot/screenshotHoriseonWebpage.png)
